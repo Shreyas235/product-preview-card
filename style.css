@@ -108,7 +108,7 @@ span {
     min-height: 200px;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 650px) {
     .image-container {
         background-image: url('/images/image-product-desktop.jpg');
         background-repeat: no-repeat;
