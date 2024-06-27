@@ -97,3 +97,40 @@ h2 {
 span {
     letter-spacing: 0.4rem;
 }
+
+.image-container {
+    border-radius: 10px 10px 0 0 ;
+    background-image: url('../images/image-product-mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+}
+
+@media screen and (min-width: 650px) {
+    .image-container {
+        background-image: url('/images/image-product-desktop.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        min-height: 450px;
+        border-radius: 10px 0 0 10px;
+        width: 300px
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        min-height: 400px;
+        width: fit-content;
+    }
+    .container-desc {
+        justify-content: center;
+        width: 300px;
+        gap: 1.7rem;
+        padding: 0rem 3rem;
+    }
+    .cart {
+        margin-top: 1rem;
+    }
+}
